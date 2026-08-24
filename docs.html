@@ -1,0 +1,162 @@
+---
+layout: default
+title: Documentation & System Architecture | Al Massriya Al Emaratiya
+permalink: /docs.html
+---
+
+    <!-- تنسيقات مخصصة لصفحة التوثيق -->
+    <style>
+        .sub-page-hero {
+            height: 60vh !important;
+            min-height: 625px !important;
+        }
+        .docs-sidebar {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 30px;
+            position: sticky;
+            top: 120px;
+        }
+        .docs-sidebar h4 {
+            color: var(--primary);
+            font-size: 1.2rem;
+            font-weight: 800;
+            margin-bottom: 20px;
+        }
+        .docs-sidebar ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        .docs-sidebar ul li a {
+            color: var(--text-muted);
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .docs-sidebar ul li a:hover,
+        .docs-sidebar ul li a.active {
+            color: var(--accent);
+            transform: translateX(5px);
+        }
+        .docs-content-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 24px;
+            padding: 40px;
+            margin-bottom: 30px;
+        }
+        .docs-content-card h3 {
+            font-size: 1.8rem;
+            color: var(--primary);
+            font-weight: 800;
+            margin-bottom: 20px;
+            position: relative;
+            padding-bottom: 10px;
+        }
+        .docs-content-card h3::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 40px;
+            height: 3px;
+            background: var(--accent);
+        }
+        .docs-content-card p, .docs-content-card li {
+            color: var(--text-muted);
+            line-height: 1.8;
+            font-size: 1.05rem;
+        }
+        .docs-content-card ul {
+            margin-top: 15px;
+            margin-bottom: 15px;
+            padding-left: 20px;
+        }
+    </style>
+
+    <!-- Hero Section -->
+    <section class="immersive-hero sub-page-hero" id="home">
+        <div class="immersive-hero-media">
+            <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200" alt="Documentation Banner" style="width:100%; height:100%; object-fit:cover;">
+        </div>
+        <div class="immersive-hero-overlay"></div>
+
+        <div class="immersive-hero-content" data-aos="fade-up">
+            <div class="tech-badge"><i class="fas fa-book"></i> System Architecture</div>
+            <h1>Platform <span class="gradient-text">Documentation</span></h1>
+            <p>Comprehensive technical and operational guides for Al Massriya Al Emaratiya digital infrastructure and trade pipelines.</p>
+        </div>
+    </section>
+
+    <!-- Infinite Marquee Ticker -->
+    <div class="marquee-ticker">
+        <div class="marquee-content">
+            <span>EGYPT - UAE CORRIDOR</span> • <span>GLOBAL LOGISTICS EXCELLENCE</span> • <span>SECURE B2B ESCROW</span> • <span>FAST CUSTOMS CLEARANCE</span> • <span>EXPRESS OCEAN FREIGHT</span> • <span>SMART TRACKING SYSTEMS</span>
+        </div>
+    </div>
+
+    <!-- Main Content Section -->
+    <section class="section">
+        <div class="container">
+            <div class="grid" style="grid-template-columns: 300px 1fr; gap: 40px; align-items: start;">
+                
+                <!-- Sidebar Navigation -->
+                <div class="docs-sidebar" data-aos="fade-right">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="#overview" class="active"><i class="fas fa-chevron-right"></i> Overview</a></li>
+                        <li><a href="#divisions"><i class="fas fa-chevron-right"></i> Trade Divisions</a></li>
+                        <li><a href="#logistics"><i class="fas fa-chevron-right"></i> Logistics & Shipping</a></li>
+                        <li><a href="#integration"><i class="fas fa-chevron-right"></i> System Integration</a></li>
+                    </ul>
+                </div>
+
+                <!-- Main Content Areas -->
+                <div class="docs-main-content">
+                    
+                    <div id="overview" class="docs-content-card" data-aos="fade-up">
+                        <h3>1. Portal Overview</h3>
+                        <p>
+                            Al Massriya Al Emaratiya operates a multi-market digital B2B trade hub linking Egypt and the United Arab Emirates. 
+                            Our platform integrates automated RFQ desks, live logistics tracking, secure commercial agency channels, and specialized divisions.
+                        </p>
+                    </div>
+
+                    <div id="divisions" class="docs-content-card" data-aos="fade-up">
+                        <h3>2. Trade Divisions Structure</h3>
+                        <p>The platform houses specialized corridors catering to industrial, commercial, and hospitality needs:</p>
+                        <ul>
+                            <li><strong>Food Division:</strong> Managing safe foodstuff pathways from Cairo to Sharjah.</li>
+                            <li><strong>Hotel Supplies:</strong> Direct procurement pipelines from Port Said to Jebel Ali.</li>
+                            <li><strong>Chemicals & Cosmetics:</strong> Regulated shipping routes from Alexandria to Khalifa Port.</li>
+                            <li><strong>OS&E Sourcing & Furniture:</strong> Comprehensive supply chains for office, banquet, and hotel setups.</li>
+                        </ul>
+                    </div>
+
+                    <div id="logistics" class="docs-content-card" data-aos="fade-up">
+                        <h3>3. Logistics & Supply Chain</h3>
+                        <p>
+                            We provide end-to-end multi-modal transport solutions incorporating ocean freight, air cargo, customs clearance, and secure warehousing across key logistics hubs in both countries.
+                        </p>
+                    </div>
+
+                    <div id="integration" class="docs-content-card" data-aos="fade-up">
+                        <h3>4. Digital Systems & Marketplace</h3>
+                        <p>
+                            The core infrastructure runs on a modern Tech OS architecture supporting real-time inventory checks, secure API requests, and direct integration with our global marketplace portal at <a href="https://amae.egy-uae.com" target="_self" style="color: var(--accent);">amae.egy-uae.com</a>.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
