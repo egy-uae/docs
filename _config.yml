@@ -1,6 +1,12 @@
-title: Al Massriya Al Emaratiya for Commercial Agencies, Import & Export | Documentation
-description: Official documentation and guides for Al Massriya Al Emaratiya services, APIs, and customer support.
-theme: minima
-markdown: kramdown
-lang: en
-timezone: Africa/Cairo
+title: Al Massriya Al Emaratiya (EGY-UAE) Documentation
+description: Official documentation and guides for EGY-UAE services and APIs.
+url: https://docs.egy-uae.com
+
+# Remote theme setting to use Just the Docs
+remote_theme: just-the-docs/just-the-docs
+
+# Enable color scheme (optional: dark or light)
+color_scheme: light
+
+# Search settings (enabled by default)
+search_enabled: true
