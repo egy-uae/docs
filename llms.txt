@@ -1,0 +1,8 @@
+# Al Massriya Al Emaratiya (EGY-UAE) Documentation
+
+> Official documentation for EGY-UAE platform services, providing structured information for customers and AI-powered assistants.
+
+## Main Sections
+- [Home](https://docs.egy-uae.com/)
+- [Getting Started](https://docs.egy-uae.com/getting-started)
+- [API Reference](https://docs.egy-uae.com/api)
